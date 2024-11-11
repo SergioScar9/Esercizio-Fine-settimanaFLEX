@@ -1,0 +1,220 @@
+.barraalta {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 200px;
+  height: 15px;
+  border-radius: 20px;
+  border: 0px solid;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: rgba(247, 247, 245, 0.836);
+  position: absolute;
+  left: 127px;
+}
+.iconealte i {
+  padding: 15px;
+  padding-top: 20px;
+}
+h1 {
+  margin: 10px;
+}
+
+main {
+  margin-inline: 150px;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.colonna-60 {
+  width: 60%;
+  display: flex;
+}
+.cl30 {
+  display: flex;
+}
+.connect-twitter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.connect-twitter :first-child {
+  width: 30px;
+}
+.connect-twitter p {
+  text-align: center;
+  font-size: small;
+}
+.connect-twitter button {
+  border-radius: 20px;
+  background-color: aliceblue;
+  border-color: rgb(194, 202, 202);
+  font-size: small;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.connect-twitter a {
+  margin-top: 10px;
+  color: rgb(148, 148, 148);
+  font-size: smaller;
+}
+
+.colonna-40 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px solid #b5aeae;
+}
+.categorie {
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+}
+.categorie2 {
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+}
+.categoria3 {
+  justify-content: space-between;
+  width: 10px;
+}
+.button-category button {
+  border-radius: 20px;
+  margin-top: 5px;
+  border: none;
+  width: 90px;
+  height: 25px;
+  font-size: x-small;
+}
+
+.profilo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profilo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.profilo p {
+  margin-left: 10px;
+}
+.titolo-paragrafo {
+  margin-left: 24px;
+  line-height: 25px;
+}
+.titolo-paragrafo p {
+  color: rgb(148, 148, 148);
+}
+
+.interazioni {
+  display: flex;
+  align-items: baseline;
+  margin-left: 24px;
+  color: rgb(148, 148, 148);
+}
+.interazioni p {
+  color: rgb(148, 148, 148);
+}
+.interazioni :nth-child(9) {
+  color: #000000;
+}
+.fa-heart {
+  margin-left: 20px;
+}
+.fa-comment {
+  margin-left: 20px;
+}
+.fa-circle-xmark {
+  margin-left: 120px;
+}
+.interazioni .fa-bookmark,
+.fa-ellipsis {
+  margin-left: 25px;
+}
+.interazioni p {
+  margin-left: 5px;
+  font-size: small;
+}
+.Wakeupimg {
+  width: 213px;
+  height: 137px;
+  left: 700px;
+  top: 224px;
+}
+
+.Interview {
+  width: 213px;
+  height: 137px;
+  left: 700px;
+  top: 450px;
+}
+
+.mobile {
+  width: 213px;
+  height: 137px;
+  left: 700px;
+  top: 750px;
+}
+
+.host {
+  width: 213px;
+  height: 137px;
+  left: 700px;
+  top: 1050px;
+}
+
+.lie {
+  width: 213px;
+  height: 137px;
+  left: 700px;
+  top: 1300px;
+  border: #000000;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.chi-seguire {
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+.rec-add a {
+  color: green;
+  text-decoration: none;
+  margin-left: 28px;
+}
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 62%;
+  gap: 9px;
+}
+footer button {
+  background-color: white;
+  border: none;
+  color: rgb(148, 148, 148);
+}
+.profilo button {
+  margin-left: 30px;
+  height: 28px;
+  width: 65px;
+  border-radius: 20px;
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(148, 148, 148);
+}
